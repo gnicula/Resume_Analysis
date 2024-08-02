@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 80px;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    column-gap: 5px;
+    align-text: right;
+    align-content: right;
+    padding: 25px;
+    background-color: #1B263B;
+    border-bottom: 1px solid #E0E1DD;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #E0E1DD;
+    margin: 0;
+}
+
+.dark-blue {
+    background-color: #1B263B;
+    border: 1px solid #E0E1DD;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dark-blue label {
+    color: #E0E1DD;
+}
+
+.dark-blue button {
+    background-color: #415A77;
+    color: #E0E1DD;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-blue button:hover {
+    background-color: #1B263B;
+}
+
+.dark-blue textarea {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    border: 1px solid #E0E1DD;
+    border-radius: 5px;
+}
+
+.dark-blue input[type="file"] {
+    color: #E0E1DD;
+    border: 1px solid #E0E1DD;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1B263B;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
